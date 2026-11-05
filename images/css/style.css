@@ -15,7 +15,7 @@ h1 {
 
 h2 {
     color: #684324;
-    border-bottom: 2px solid #762d5f;
+    border-bottom: 2px solid #76546a;
     padding-bottom: 5px;
 }
 
@@ -31,11 +31,32 @@ a {
 a:hover {
     color: #a16c91;
 }
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
 footer {
     background-color: #76546a;
     color: #ffffff;
     text-align: center;
     padding: 15px;
     margin-top: 30px;
+}
+
+.hobbies {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 25px auto;
+    border-radius: 10px;
+    max-width: 850px;
+    box-sizing: border-box;
+}
+.hobbies ul {
+    padding-left: 25px;
+}
+.hobbies li {
+    margin-bottom: 8px;
 }
 
